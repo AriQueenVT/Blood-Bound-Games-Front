@@ -1,0 +1,22 @@
+body {
+  min-height: 100vh;
+  background-color: #171717;
+  margin: 0;
+  font-family: "Poppins", Arial, sans-serif;
+}
+
+p, a {
+  margin: 0;
+  color:  white;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --grey: #252525;
+  --light-grey: #555555;
+  --red: #BD3232;
+}
