@@ -67,22 +67,23 @@ ul {
             }
         }
     }
+
+    button {
+        background-color: var(--red);
+        border-radius: 100px;
+        border: none;
+        width: 95px;
+        height: 35px;
+        margin-left: 15px;
+    
+        p {
+            color: var(--grey);
+            font-weight: bold;
+        }
+    
+        &:hover {
+            cursor: pointer;
+        }
+    }
 }
 
-button {
-    background-color: var(--red);
-    border-radius: 100px;
-    border: none;
-    width: 95px;
-    height: 35px;
-    margin-left: 15px;
-
-    p {
-        color: var(--grey);
-        font-weight: bold;
-    }
-
-    &:hover {
-        cursor: pointer;
-    }
-}

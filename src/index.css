@@ -20,3 +20,7 @@ p, a {
   --light-grey: #555555;
   --red: #BD3232;
 }
+
+button:hover {
+  cursor: pointer;
+}
